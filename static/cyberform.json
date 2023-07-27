@@ -1,0 +1,434 @@
+{"Categories": {
+    "People": {
+        "q1": {
+            "Question": "Does your plant or facility provide basic cybersecurity awareness training to all employees?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Regular training of employees in proper conduct on company equipment can help prevent accidental downloads of viruses and other system vulnerabilities.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "Requiring employees to take regular training would help secure the systems within your facility and improve overall cybersecurity.",
+                    "Action": "Develop training procedures for employees that inform them about cybersecurity best practices.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to know whether or not regular trainings are occurring. Without trainings, employee activities could represent a significant risk to company assets.",
+                    "Action": "Ask your IT department if regular employee cybersecurity trainings occur. If they do not, develop training procedures for employees that inform them about cybersecurity best practices.",
+                    "Points": 2
+                }
+            }
+        },
+        "q2": {
+            "Question": "Are staff assigned and trained to take appropriate measures during a cybersecurity incident?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Having employees who are trained to respond to cybersecurity threats in a timely way is important to mitigate the damage and cost associated with a cyberattack. Employees do not necessarily need to be well versed in cybersecurity, but should be trained to quickly and safely shut off equipment and to contact a vendor, consultant, or other expert who is capable of a cybersecurity review of the asset.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "If a cybersecurity event were to occur, there could be issues with a safe and damage-free shutdown. Additionally, if roles are not properly articulated and no one knows who to contact regarding potential fixes for the system, the shutdown could be prolonged.",
+                    "Action": "Assign and train staff to respond to a cybersecurity event to help avoid downtime and repair costs that represent the largest expenditures.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "Having insight into whether or not staff are assigned and trained on cybersecuirty incident response can help prevent significant costs. ",
+                    "Action": "Work with plant management and IT staff to determine if staff are assigned and trained to respond to cybersecurity issues. If they are not, assign and train staff to respond to a cybersecurity event to help avoid downtime and repair costs that represent the largest expenditures.",
+                    "Points": 2
+                }
+            }
+        },
+        "q3": {
+            "Question": "Do your industrial control system (ICS) vendors provide remote support?",
+            "Answers": {
+                "Yes, vendors have the capability": {
+                    "Response": "Remote access for vendors is a risk factor that can lead to unauthorized penetration and access to industrial controls systems. By allowing a third party remote access to industrial systems, you rely on their commitment to cybersecurity and the training of their staff. ",
+                    "Action": "Work with your vendor to determine how strong their internal security practices are and whether or not their remote access is a risk for your plant. Consider implementing an enhanced login procedure for vendors to be able to access systems remotely.",
+                    "Points": 3
+                },
+                "No, vendors do not have the capability": {
+                    "Response": "Since vendors do not have remote access to plant systems, risk of unauthorized access to industrial controls systems is minimized.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Unsure": {
+                    "Response": "It is important to be able to define the role of your vendors with respect to your ICS. Without doing so, you cannot establish a clear boundary of assets that you will need to protect.",
+                    "Action": "Determine if your vendors have remote access to your facility's ICS. If they do, work with your vendor to determine how strong their internal security practices are and whether or not their remote access is a risk for your plant. Consider implementing an enhanced login procedure for vendors to be able to access systems remotely.",
+                    "Points": 2
+                }
+            }
+        },
+        "q4": {
+            "Question": "What level of on-site physical security does your facility or plant enforce upon vendors?",
+            "Answers": {
+                "Vendors have free access": {
+                    "Response": "Allowing free access to the plant may be a security risk because vendors may inadvertently connect contaminated hardware or software to internal IT systems and cause a security breach. Additionally, with unfettered access, plant staff cannot track or be certain of which internal systems have been modified by vendors.",
+                    "Action": "Work with staff to determine the need for vendors to access different areas within the plant. Enforce the restriction of access to areas unnecessary for vendors. Determine whether or not vendors can access your ICS or IT systems from unrestricted areas. If they can, consider posting a plant employee with them to monitor work.",
+                    "Points": 3
+                },
+                "Vendors have restricted access": {
+                    "Response": "Vendors may unknowingly bring malware or cause intrusions in systems in which they work. As a result, confining vendors to a single portion of the facility/plant results in a decreased likelihood that they will connect their hardware or software to unauthorized plant systems.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Unsure": {
+                    "Response": "Knowing where your vendors are in your plant and what systems they have access to will allow you to secure specific areas containing high value equipment and prevent unnecessary access to areas of the facility where vendors should not be present. The first step is to restrict where vendors can be within the plant.",
+                    "Action": "Ask your security staff what level of physical security measures are enforced on visitors. If there are no physical security measures, work with staff to determine the need for vendors to access different areas within the plant. Enforce the restriction of access to areas unnecessary for vendors. ",
+                    "Points": 2
+                }
+            }
+        },
+        "q5": {
+            "Question": "Do third party vendors have proper cybersecurity training?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Ensuring vendors have a proper understanding of cybersecurity best practices helps avoid accidental contamination of on-site systems.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "Vendors should know and understand any cybersecurity best practices that their clients employ so they can avoid accidentally bringing viruses on-site or causing vulnerabilities. ",
+                    "Action": "Speak with your vendors about the importance of cybersecurity training. Consider adding a clause requiring cybersecurity training in future contracts with vendors.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "Vendors represent a potential access point for bad actors to enter your systems so it is important that they be trained in cybersecurity best practices.",
+                    "Action": "Speak with your vendors about their cybersecurity training, practices, and certifications. Consider adding a clause requiring cybersecurity training in future contracts with vendors.",
+                    "Points": 2
+                }
+            }
+        },
+        "q6": {
+            "Question": "Do vendors utilize their own equipment, hardware or software during site visits? This may include laptops and storage devices. ",
+            "Answers": {
+                "No": {
+                    "Response": "By restricting the equipment brought in by vendors, you are preventing the potential for vendor hardware and software to transmit viruses or malware to facility/plant systems.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Yes": {
+                    "Response": "Allowing vendors to bring hardware and software into your facility/plant may result in increased risk for viruses or malware to enter your systems. As a result, understanding exactly what vendors bring on-site is key to maintaining a secure perimeter around your facility and ICS. ",
+                    "Action": "Develop training procedures for vendors who work on-site that inform them about cybersecurity best practices. You could also develop guidelines on what equipment vendors are allowed to bring into your facility/plant to increase on-site security.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "Hardware and software have the potential to carry unidentified viruses, so understanding current facility policies on what vendors can bring on-site is key to maintaining a secure perimeter around your facility and ICS.",
+                    "Action": "Ask your plant manager whether or not vendors undergo cybersecurity training before working on-site. If they do not, develop training procedures for vendors who work on-site that inform them about cybersecurity best practices. You could also develop guidelines on what equipment vendors are allowed to bring into your facility/plant to increase on-site security.",
+                    "Points": 2
+                }
+            }
+        }
+    },
+    "Process": {
+        "q7": {
+            "Question": "Have you identified and inventoried critical equipment, data, or software in your plant or facility that would cause disruption to your operations if they were compromised?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Your critical equipment, data, or software are the systems that, if inoperable, would shut down your entire plant. Being able to identify these systems will decrease risk of disruption.",
+                    "Action": "Critical equipment should be protected with firewalls, secure hardware that does not allow for memory transfer with USBs or other external media devices, and alarms that sound when operating under unusual parameters.",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "Maintaining a list of your critical equipment, data, or software can help you prioritize actions during emergency shutdowns and other unplanned activities.",
+                    "Action": "Work with your plant manager to define a list of critical assets within your facility and ensure that those assets each have an individual or team responsible for their wellbeing. Additionally, you can document emergency shutdown procedures for those critical assets.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to identify which equipment, data, or software are critical to facility operations and would cause major disruption if compromised.",
+                    "Action": "Work with plant management to determine whether or not critical equipment have been defined. If they have not, define a list of critical assets within your facility and ensure that those assets each have an individual or team responsible for their wellbeing. Additionally, you can document emergency shutdown procedures for those critical assets.",
+                    "Points": 2
+                }
+            }
+        },
+        "q8": {
+            "Question": "Does a plan exist to identify and isolate impacted assets, or shut down equipment as necessary in the event of a cybersecurity incident?",
+            "Answers": {
+                "Yes": {
+                    "Response": "This plan should be updated periodically to reflect changing plant conditions and systems.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "Without a plan to review IT and ICS assets, external consultants or IT staff may have difficulty working and may prolong the plant outage. Additionally, without an emergency shutdown plan, equipment could be accidentally damaged or destroyed.",
+                    "Action": "Work with individual technicians and your plant manager to understand what a cybersecurity incident could look like and develop a plan to identify impacted assets. Also, document a procedure to isolate or shutdown the equipment that was identified as affected by the incident.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to understand if a plan exists to identify, isolate, and shut down equipment that is impacted by a cybersecurity incident. If staff do not have a plan or are not aware of a plan, major disruptions including both full or partial plant shutdown, could result.",
+                    "Action": "Consult with your IT department, and your plant safety officer, to see if there is a plan for review of IT and ICS assets in the event of an emergency shutdown. If there is not, work with individual technicians and your plant manager to understand what a cybersecurity incident could look like and develop a plan to identify impacted assets.",
+                    "Points": 2
+                }
+            }
+        },
+        "q9": {
+            "Question": "Does your plant or facility have a cybersecurity incident response procedure?",
+            "Answers": {
+                "Yes": {
+                    "Response": "A cybersecurity incident response procedure helps ensure that a team has the appropriate resources and recognizes critical actions necessary to respond to various incidents, including severe weather and cyberattacks, should they occur.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "Without a cybersecurity incident procedure, staff may not be aware of appropriate steps to take and major disruptions, including both full or partial plant shutdown, could result.",
+                    "Action": "Engage a cross-functional team to develop a cyber incident response procedure that outlines roles, responsibilities, and necessary training for the team to respond to cybersecurity events.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is essential for staff to be able to immediately respond to a cybersecurity incident to protect critical facility systems and minimize disruptions.",
+                    "Action": "Consult with both your IT department and your plant manager to determine if an incident response procedure exists. If it does not, engage a cross-functional team to develop a cyber incident response procedure that outlines roles, responsibilities, and necessary training for the team to respond to cybersecurity events.",
+                    "Points": 2
+                }
+            }
+        },
+        "q10": {
+            "Question": "Does a central repository containing equipment schematics, IT infrastructure drawings, data backups, and system network layouts exist within the facility?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Equipment and IT schematics as well as data backups will help in the event of an emergency shutdown. If vendors need to access and clean the system, they will need to be thorough and check all system components. Keep this repository current as you add new production lines or update machinery.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "Without a central repository, a plant outage due to a cyberattack or other event could be prolonged because vendors or IT staff may not be able to effectively remove malware from all systems. At its worst, this could lead to repeated attacks and equipment failures.",
+                    "Action": "Work with your plant manager to create a central inventory containing information on all IT systems and ICS. Consider maintaining this resource offline, separate from the plant’s IT system (i.e., on an isolated computer, on a mainframe, or in a physical file), to ensure that information remains accessible when the IT system is shutdown during a cyberattack or system outage.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to understand if a central repository exists for equipment schematics, IT infrastructure drawings, and system network layouts. Equipment and IT schematics will help in the event of an emergency shutdown. If vendors need to access and clean the system, they will need to be thorough and check all system components.",
+                    "Action": "Consult with plant management and IT staff to determine whether or not a central inventory of this information exists. If it does not, work with your plant manager to create a central inventory, containing information on all IT systems and ICS. Consider maintaining this resource offline, separate from the plant’s IT system (i.e., on an isolated computer, on a mainframe, or in a physical file), to ensure that critical information remains accessible when the IT system may be shutdown during a cyberattack or system outage.",
+                    "Points": 2
+                }
+            }
+        },
+        "q11": {
+            "Question": "Does your plant or facility provide basic cybersecurity awareness training to all employees?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Regular training of employees in proper conduct on company equipment can help prevent accidental downloads of viruses and other system vulnerabilities.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "Requiring employees to take regular training would help secure the systems within your facility and improve overall cybersecurity.",
+                    "Action": "Develop training procedures for employees that inform them about cybersecurity best practices.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to know whether or not regular trainings are occurring. Without trainings, employee activities could represent a significant risk to company assets.",
+                    "Action": "Ask your IT department if regular employee cybersecurity trainings occur. If they do not, develop training procedures for employees that inform them about cybersecurity best practices.",
+                    "Points": 2
+                }
+            }
+        },
+        "q12": {
+            "Question": "Does plant/facility equipment get regularly or automatically scanned for cybersecurity issues (e.g., malware, etc.)?",
+            "Answers": {
+                "Equipment is regularly scanned": {
+                    "Response": "By performing scans regularly, a plant or facility can ensure the integrity of all systems and avoid security risks. The automatic scheduling of security scans could help ensure that scans are not missed due to human error.",
+                    "Action": "Explore which, if any, software programs have the ability to schedule automatic scanning of equipment and select those settings.",
+                    "Points": 1
+                },
+                "Equipment is regularly, automatically scanned": {
+                    "Response": "By performing scans regularly, your plant or facility is ensuring the integrity of all systems and avoiding security risks.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Equipment is not scanned": {
+                    "Response": "Security scans identify viruses and malware that can interfere with normal equipment operation, send personal data to unauthorized parties, and/or grant access to private computer systems. As a result, frequent scanning of facility equipment is advised.",
+                    "Action": "Run or install software to scan equipment for cybersecurity issues. Where possible, select settings for routine and automatic scheduling of these scans.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to understand if your facility has the capability to regularly or automatically scan for cybersecurity issues to ensure the integrity of systems and avoid security risk.",
+                    "Action": "Ask your IT team to inventory which equipment has software to scan for cybersecurity issues and how often the scans are currently run.",
+                    "Points": 2
+                }
+            }
+        },
+        "q13": {
+            "Question": "Is the use of external media by staff and vendors regulated within the plant/facility and scanned for cybersecurity issues?",
+            "Answers": {
+                "USBs or similar external media are prohibited": {
+                    "Response": "Allowing external media, such as USB drives, in the facility can lead to the introduction of malware and unsecured programs.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "USBs or external media must undergo inspection": {
+                    "Response": "Limiting the use of USBs and other external media devices will help secure your corporate IT infrastructure from the outside world. When external media devices are required to be scanned for misuse or viruses, risk is reduced but not eliminated.",
+                    "Action": "Consider disallowing external media devices in your plant/facility.",
+                    "Points": 1
+                },
+                "No limit on external media": {
+                    "Response": "By not limiting the use of USBs or other external media devices, you are introducing several potential vulnerabilities to your plant. Searching these devices for malware, at a minimum, will help avoid contamination of internal systems.",
+                    "Action": "Consider restricting the use of external media devices or scanning these devices for cybersecurity issues to reduce contamination.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to understand the extent to which external media devices can be used on computers associated with your ICS, as unrestricted use of external media devices can introduce malware and unsecured programs.",
+                    "Action": "Ask your IT staff if there is a company policy that addresses the use of external media devices. If there is no company policy, you may consider adopting one. Consider restricting the use of external media devices or scanning these devices for cybersecurity issues to reduce contamination.",
+                    "Points": 2
+                }
+            }
+        }
+    },
+    "Technology": {
+        "q14": {
+            "Question": "Which of the following best describes the industrial controls in your plant or facility?",
+            "Answers": {
+                "mechanical levers, pneumatic or electrical switches": {
+                    "Response": "Manually operated machinery presents little risk in a cybersecurity environment due to its lack of connection with business systems and the broader internet.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "minimal electrical network connectivity between systems": {
+                    "Response": "Manually operated machinery presents little risk in a cybersecurity environment due to its lack of connection with business systems and the broader internet. Still, it is important to be aware that connecting external devices to your equipment can represent a vulnerability.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Automated facility with multiple ICSs ": {
+                    "Response": "Although portions of the industrial process may individually be at risk to cyber incidents, different ICS environments are somewhat insulated from one another, which can slow or contain viruses.",
+                    "Action": "Install firewalls to control data flow between different machinery components and ICS computers.",
+                    "Points": 2
+                },
+                "Automated facility with a single ICS": {
+                    "Response": "A fully automated manufacturer utilizing a single ICS may be more vulnerable than a manufacturer with multiple ICSs because the entire system can be compromised at once. At the same time, this kind of system can more easily be repaired when attacked.",
+                    "Action": "Install firewalls to control data flow between different machinery components and ICS computers.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to understand industrial controls in your plant or facility, as various hardware controls are associated with varying degrees of risk.",
+                    "Action": "Work with plant management and IT to determine how your industrial controls function and any firewalls that exist between machinery components and ICS computers. Install firewalls to control data flow between different machinery components and ICS computers, as appropriate.",
+                    "Points": 2
+                }
+            }
+        },
+        "q15": {
+            "Question": "Are indicators or alerts set up on critical equipment to indicate unusual changes to operating parameters, multiple login attempts, or detect other anomalies in use?",
+            "Answers": {
+                "Yes": {
+                    "Response": "These alarms will notify you if unauthorized users are changing equipment operating parameters or may be close to damaging equipment.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "No": {
+                    "Response": "If an unauthorized user were to change equipment operating parameters, those changes may go unnoticed and plant product or equipment could be damaged.",
+                    "Action": "Work with your individual equipment operators and plant IT staff to install alarms on critical equipment.",
+                    "Points": 3
+                },
+                "Unsure": {
+                    "Response": "It is important to recognize which critical equipment includes an alarm or other indicator as these can provide a notification of operation disruptions.",
+                    "Action": "Work with individual equipment operators and your plant IT staff to determine if alarms exist or are needed.",
+                    "Points": 2
+                }
+            }
+        },
+        "q16": {
+            "Question": "Does the plant or facility have any equipment that is programmable or reconfigurable by remote staff?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Since equipment parameters can be modified remotely, there may be risk to the mechanisms used to operate the machinery. If the machinery is operated via software through a VPN, there will be less associated risk than a simple unsecure remote desktop connection.",
+                    "Action": "Ensure that remote connections are made using a virtual private network (VPN). Consider implementing an enhanced login procedure (multifactor authentication) for vendors to be able to access systems remotely.",
+                    "Points": 3
+                },
+                "No": {
+                    "Response": "Not allowing remote access helps eliminate risk from remote employees who may have malware-contaminated hardware they use for system access.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Unsure": {
+                    "Response": "It is important to understand the level of remote access that employees have to your ICS because remote access can be a vulnerability that hackers and malware can exploit.",
+                    "Action": "Ask your plant IT team if employees can alter manufacturing processes from remote locations. If so, ensure that remote connections are made using a virtual private network (VPN) and consider implementing an enhanced login procedure (multifactor authentication).",
+                    "Points": 2
+                }
+            }
+        },
+        "q17": {
+            "Question": "Does your industrial control system (ICS) allow remote access?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Any remote access to the ICS poses risk, as remote access can be a vulnerability that hackers and malware can exploit. If the machinery is accessed via software through a VPN, there will be less associated risk than a simple unsecure remote desktop connection.",
+                    "Action": "Ensure that remote connections are made using a virtual private network or VPN. Consider implementing an enhanced login procedure for vendors to be able to access systems remotely.",
+                    "Points": 3
+                },
+                "No": {
+                    "Response": "Not allowing remote access helps eliminate risk from remote employees who may have malware-contaminated hardware they use for system access.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Unsure": {
+                    "Response": "It is important to understand the level of remote access that employees have to your ICS, because remote access can be a vulnerability that hackers and malware can exploit.",
+                    "Action": "Ask your facility IT team about whether or not employees can access company data from off-site locations. If so, ensure that remote connections are made using a virtual private network (VPN) and consider implementing an enhanced login procedure.",
+                    "Points": 2
+                }
+            }
+        },
+        "q18": {
+            "Question": "Are there processes in your plant with operating parameters that are interdependent with other processes?",
+            "Answers": {
+                "Yes": {
+                    "Response": "While it can improve operations, allowing systems to function based on upstream data can create risk. If a bad actor were to modify data to cause the system to malfunction, equipment damage or loss of production could result. To minimize risk, upstream data can be secured and traffic on your ICS can be monitored via firewalls, and alarms can be used to alert the plan to any abnormal operation.",
+                    "Action": "Where actions or processes are based on upstream or downstream data, check if firewalls have been installed to minimize risk. If alarms do not currently exist in critical equipment to notify of operation outside of normal parameters, consider installing.",
+                    "Points": 3
+                },
+                "No": {
+                    "Response": "As no systems are automated to function based on upstream or downstream data, there is no risk of corrupted data causing plant processes to destroy equipment.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Unsure": {
+                    "Response": "It is important to understand equipment operating parameters, in particular if and where actions or processes are dependent on inputs or outputs from other processes. These interdependencies are areas where data could be corrupted to interrupt plant operations and/or damage critical equipment.",
+                    "Action": "Ask equipment operators if plant processes are determined by data from upstream or downstream processes. Where automated functioning is employed, consider adding firewalls to reduce risk and/or alarms to notify of operation outside of normal parameters.",
+                    "Points": 2
+                }
+            }
+        },
+        "q19": {
+            "Question": "How are modifications to parameters or set-points made within your manufacturing process?",
+            "Answers": {
+                "A PC running MS Windows or similar": {
+                    "Response": "Standard PC operating software (e.g., Microsoft Windows) tends to be at a greater risk for exploitation by bad actors and malware because of its global ubiquity. Industrial processes relying on this software should be consistently updated and patched to prevent unauthorized intrusions.",
+                    "Action": "Regularly scan PCs for malware and viruses. For added protection, consider isolating the PCs from internet and email to avoid outside contamination.",
+                    "Points": 3
+                },
+                "A PC running dedicated control system software ": {
+                    "Response": "Specialized ICS software is generally not a foolproof way to protect the integrity of your industrial processes. However, there are fewer malware products and individuals capable of infiltrating ICS software than common operating systems, like Windows.",
+                    "Action": "Regularly scan PCs for malware and viruses. For added protection, consider isolating the PCs from internet and email to avoid outside contamination.",
+                    "Points": 2
+                },
+                "Manual operating switches and valves": {
+                    "Response": "Manual switches and valves, while vulnerable to user error and in-person sabotage, are not vulnerable to cyberattacks.",
+                    "Action": "",
+                    "Points": 1
+                },
+                "Unsure": {
+                    "Response": "It is important to recognize how the type of computer operating systems used to modify parameters and process set-points can influence risk.",
+                    "Action": "Speak with your IT team to identify the type of computer operating systems used to modify parameters and process set-points and any vulnerabilities associated with these machines.",
+                    "Points": 2
+                }
+            }
+        },
+        "q20": {
+            "Question": "Do the computers that run your industrial control system (ICS) allow employees or vendors to import files from external media?",
+            "Answers": {
+                "Yes": {
+                    "Response": "Many types of common files, such as Microsoft Word files, can be easily contaminated with malware. ICS-associated assets are at risk if employees or vendors actively add and remove files that have been created on other systems or downloaded from the Web.",
+                    "Action": "Consider the restriction of file importation from external media, using only company-provided media devices within the facility, and turning off USB ports where their use is not necessary.",
+                    "Points": 3
+                },
+                "No": {
+                    "Response": "When external files are introduced to the ICS environment they could potentially introduce malware or other contaminants.",
+                    "Action": "Consider limiting the use of external media devices and scanning devices for malicious software.",
+                    "Points": 1
+                },
+                "Unsure": {
+                    "Response": "It is important to understand if malware could be introduced by external media devices and, if so, the potential impact.",
+                    "Action": "Speak with your plant IT department to understand the company's removal media policy and any associated restrictions. Consider limiting the use of external media devices and scanning devices for malicious software.",
+                    "Points": 2
+                }
+            }
+        }
+    }
+    
+}}
