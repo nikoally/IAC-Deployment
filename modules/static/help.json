@@ -1,0 +1,14 @@
+[
+    {
+        "header": "Welcome to our Application!",
+        "body": "This is a simple application that helps you do amazing things!"
+    },
+    {
+        "header": "How to use the Application",
+        "body": "To use this application, follow the steps below:\n1. Step 1: Do this...\n2. Step 2: Do that...\n3. Step 3: Do something else..."
+    },
+    {
+        "header": "Troubleshooting",
+        "body": "If you experience any issues, try the following:\n- Try restarting the application\n- Ensure your internet connection is stable\n- Update the application to the latest version"
+    }
+]
