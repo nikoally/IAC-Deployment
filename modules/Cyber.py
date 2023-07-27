@@ -26,23 +26,23 @@ class TabModule(ttk.Frame):
         super().__init__(master)
         self.entries = {}
         
-        with open("IAC-Deployment/static/cyberform.json", "r") as f:  # Use your actual JSON file path
+        with open("IAC-Deployment/static/cyberform.json", "r") as f: 
             self.data = json.load(f)
         
         row = 0
         for category, questions in self.data['Categories'].items():
             for qid, question_data in questions.items():
-                tk.Label(self, text=question_data['Question'], wraplength=600).grid(row=row, column=0, sticky="w")
+                tk.Label(self, text=(question_data['Question']), wraplength=500).grid(row=row, column=0, sticky="w")
                 
                 self.entries[qid] = tk.StringVar()
                 choices = list(question_data['Answers'].keys())
-                CustomOptionMenu(self, self.entries[qid], *choices).grid(row=row, column=1)
+                CustomOptionMenu(self, self.entries[qid], *choices).grid(row=row, column=1, sticky = "e")
                 row += 1
         
         tk.Button(self, text="Submit", command=self.submit).grid(row=row, column=0, columnspan=2)
 
     def submit(self):
-        company_name = "Company"  # Use an actual company name or ask it from the user
+        company_name = "Company"  # Use an actual company name 
         output_dir = f'output/{company_name}'
         os.makedirs(output_dir, exist_ok=True)
 
